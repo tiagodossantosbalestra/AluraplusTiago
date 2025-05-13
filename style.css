@@ -35,21 +35,21 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.container_caixa {
+.container__caixa {
     margin: 0 6em;
 }
 
-.container_titulo {
+.container__titulo {
     font-size: 28px;
     font-weight: 700;
 }
 
 
-.container_imagem {
+.container__imagem {
     margin: 1em 0 2em 0;
 }
 
-.container_botao {
+.container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
@@ -59,12 +59,12 @@ body {
     margin-bottom: 1em;
 }
 
-.botao_secundario {
+.botao__secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
 }
 
-.container_aviso {
+.container__aviso {
     font-size: 12px;
     color: var(--cinza-secundario);
 }
@@ -84,53 +84,63 @@ body {
 }
 
 .descricao__titulo {
-font-weight: 700;
-font-size: 48px;
-color: var(--branco-principal);
-margin-bottom: 0.1em;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
 
 }
+
 .descricao__texto {
-color: var(--cinza-secundario);
+    color: var(--cinza-secundario);
 }
 
 .secundario__botao {
-display: inline-block;
-margin-top: 1em;
+    display: inline-block;
+    margin-top: 1em;
 }
+
 .dispositivos {
-alinhamento do texto: centralizado;
+    alinhamento do texto: centralizado;
 }
+
 .dispositivos__titulo {
-tamanho da fonte: 48px;
-cor: var(--branco-principal);
+    tamanho da fonte: 48px;
+    cor: var(--branco-principal);
 }
-.dispositivos_lista {
-display: flex;
-justify-content: center;
-list-style-type: none;
-margin: 5em 0;
+
+l .dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
 }
 
 .lista__item {
-font-size: 32px;
-color: var(--branco-principal);
+    font-size: 32px;
+    color: var(--branco-principal);
 }
 
 .rodape {
-text-align: center;
-margin: 5em 3em;
-}
-.rodape__lista {
-display: flex;
-justify-content: center;
-list-style-type: none;
-margin-top: 1em; 
+    text-align: center;
+    margin: 5em 3em;
 }
 
-.lista__link a{
-text-decoration: none; color: var(--branco-principal); margin-left: 1em; 
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
 }
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
 .rodape__texto {
-margin: 1em 0; color: var(--cinza-secundario); font-size: 14px; 
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
 }
