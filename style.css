@@ -101,11 +101,11 @@ body {
 }
 
 .dispositivos {
-    alinhamento do texto: centralizado;
+    text-align: center;
 }
 
-.dispositivos__titulo {
-    tamanho da fonte: 48px;
+.dispositivos__titulo {+++++++++
+     font-size: 48px;
     cor: var(--branco-principal);
 }
 
